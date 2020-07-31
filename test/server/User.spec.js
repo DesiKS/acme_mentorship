@@ -28,7 +28,7 @@ describe('Model: User', () => {
       return acc;
     }, {});
   });
-  xit('there are 4 users seeded', () => {
+  it('there are 4 users seeded', () => {
     expect(Object.entries(users).length).to.equal(4);
   });
   xit('lucy is moes mentor', () => {
